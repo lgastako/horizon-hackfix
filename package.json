@@ -1,0 +1,9 @@
+{
+    "name": "horizon-hackfix",
+    "version": "1.0.0",
+    "description": "Stuff Horizon Server Workarounds",
+    "engines": {
+        "node": "4.3.2"
+    },
+    "postinstall": "cp reql_connection.js /app/node_modules/horizon/node_modules/@horizon/server/src/reql_connection.js"
+}
